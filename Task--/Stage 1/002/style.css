@@ -1,0 +1,218 @@
+/*
+ *  完全不会写css...炸了
+ *  直接copy了helloworld团队的代码
+ *  就先直接跳过这个吧...
+ */
+
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+    margin: 0;
+}
+
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 60px;
+    background-color: #333;
+}
+
+.logo {
+    float: left;
+    margin: 10px 0 10px 40px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+nav ul {
+    float: right;
+    line-height: 60px;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content {
+    background-color: #dedede;
+    padding: 20px 0;
+}
+
+.content article {
+    background-color: #fff;
+    margin: 0 20px 20px;
+    padding: 40px 20px;
+    box-shadow: 1px 1px 3px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+}
+
+.content article h3 {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.content section {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.content article p {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.art-img {
+    margin: 20px 0;
+}
+
+.content article ul {
+    list-style: none;
+    margin-left: 20px;
+    line-height: 28px;
+}
+
+.content article figure {
+    width: 120px;
+    height: 125px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+}
+
+.content article figcaption {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.content article figure img {
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.content article ol {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.content article table {
+    width: 100%;
+    font-size: 14px;
+    border-color: #ccc;
+    border-collapse: collapse;
+}
+
+.content article table th,
+td {
+    padding-left: 5px;
+}
+
+.content article table thead {
+    text-align: left;
+    color: #fff;
+    background-color: #333;
+}
+
+.content article table tfoot {
+    background-color: #ccc;
+    font-weight: 700;
+}
+
+.content aside {
+    background-color: #fff;
+    margin: 40px 20px 0;
+    padding: 20px 20px;
+    box-shadow: 1px 1px 3px;
+}
+
+.content aside h2 {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border-left: 4px solid #ccc;
+}
+
+.content aside ul {
+    margin-left: 200px;
+}
+
+.content aside form label {
+    display: inline-block;
+    width: 200px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.content aside form p {
+    margin-left: 205px;
+    font-size: 12px;
+    color: #999;
+}
+
+.content aside form .option {
+    width: auto;
+}
+
+.content aside form ul {
+    list-style: none;
+}
+
+.content aside form li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.submit {
+    border-radius: 10px;
+    height: 40px;
+    background-color: #3355d0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit span {
+    line-height: 40px;
+    color: #fff;
+}
+
+footer {
+    height: 70px;
+    color: #fff;
+    background-color: #000;
+}
+
+footer p {
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+}

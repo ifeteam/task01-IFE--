@@ -25,6 +25,6 @@
 *交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
 *相互讨论，最后合成一份组内最佳代码进行提交
 ###### 在线学习参考资料
-*[Web相关名词通俗解释](https://www.zhihu.com/question/22689579)
-*[MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
+*[Web相关名词通俗解释](https://www.zhihu.com/question/22689579)<br/>
+*[MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)<br/>
 *[慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
