@@ -4,6 +4,13 @@
  *  就先直接跳过这个吧...
  */
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body,
 dl,
 dd,
@@ -56,6 +63,10 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
+}
+
+nav ul li:last-child a {
+    color: #ccc;
 }
 
 .content {

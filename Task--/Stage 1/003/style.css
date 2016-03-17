@@ -1,0 +1,101 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+   	   -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img {
+    border: 1px solid #999;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    min-width: 600px;
+}
+
+.t-eam {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #fff;
+    overflow: hidden;
+    *zoom: 1;
+    float: left;
+}
+
+.t-eam img {
+    float: left;
+}
+
+.t-eam h2 {
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.t-main {
+    margin-left: 240px;
+    margin-right: 160px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+}
+
+.t-logo {
+    padding: 20px 20px 0;
+    background-color: #fff;
+    border: 1px solid #999;
+    width: 120px;
+    float: right;
+}
+
+.t-logo .l-box {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.l-box img {
+    width: 100%;
+    height: 100%;
+}
